@@ -1,0 +1,42 @@
+﻿<VSTemplate Version="3.0.0" Type="ProjectGroup" xmlns="http://schemas.microsoft.com/developer/vstemplate/2005">
+  <TemplateData>
+    <Name>Azintelecom Web Project Architecture Core</Name>
+    <Description>A project template for building ASP.NET application along with Business layer, Data access layer, Infrastructure layer, IntegratedServices layer and WebAPI layer</Description>
+    <ProjectType>CSharp</ProjectType>
+    <ProjectSubType>
+    </ProjectSubType>
+    <SortOrder>1000</SortOrder>
+    <CreateNewFolder>true</CreateNewFolder>
+    <DefaultName>NewProject</DefaultName>
+    <ProvideDefaultName>true</ProvideDefaultName>
+    <LocationField>Enabled</LocationField>
+    <EnableLocationBrowseButton>true</EnableLocationBrowseButton>
+    <Icon>AzintelecomWebProject.png</Icon>
+  </TemplateData>
+
+  <TemplateContent>
+    <ProjectCollection>
+
+      <ProjectTemplateLink ProjectName="$projectname$.Business">
+        AG.Business\MyTemplate.vstemplate
+      </ProjectTemplateLink>
+
+      <ProjectTemplateLink ProjectName="$projectname$.DataAccess">
+        AG.DataAccess\MyTemplate.vstemplate
+      </ProjectTemplateLink>
+
+      <ProjectTemplateLink ProjectName="$projectname$.Infrastructure">
+        AG.Infrastructure\MyTemplate.vstemplate
+      </ProjectTemplateLink>
+
+      <ProjectTemplateLink ProjectName="$projectname$.IntegratedServices">
+        AG.IntegratedServices\MyTemplate.vstemplate
+      </ProjectTemplateLink>
+
+      <ProjectTemplateLink ProjectName="$projectname$.WebAPI">
+        AG.WebAPI\MyTemplate.vstemplate
+      </ProjectTemplateLink>
+
+    </ProjectCollection>
+  </TemplateContent>
+</VSTemplate>

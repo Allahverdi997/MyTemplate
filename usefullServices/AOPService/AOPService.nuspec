@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package >
+  <metadata>
+    <id>AOP.NET</id>
+    <version>1.0.0</version>
+    <title>AOPService</title>
+    <authors>Allahverdi Novruzov</authors>
+    <requireLicenseAcceptance>true</requireLicenseAcceptance>
+    <license type="expression">MIT</license>
+    <!-- <icon>icon.png</icon> -->
+    <projectUrl>http://project_url_here_or_delete_this_line/</projectUrl>
+    <description>
+		MethodInterceptor For Aspect Oriented Programming.
+		You Can Write Aspects With This MethodInterceptor.
+		Good luck in using NuGet Package.
+	</description>
+    <releaseNotes>Summary of changes made in this release of the package.</releaseNotes>
+    <copyright>Copyright 2022</copyright>
+    <tags>C# .Net .NetCore AOP</tags>
+  </metadata>
+</package>

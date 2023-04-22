@@ -1,0 +1,24 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Folder Include="IntegratedServices\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="MailService.NET" Version="3.0.1" />
+    <PackageReference Include="Microsoft.Extensions.Configuration.Abstractions" Version="6.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\core\Application\Application.csproj" />
+    <ProjectReference Include="..\..\usefullServices\JWTService\JWTService.csproj" />
+    <ProjectReference Include="..\..\usefullServices\MailService\MailSenderService.csproj" />
+  </ItemGroup>
+
+</Project>
